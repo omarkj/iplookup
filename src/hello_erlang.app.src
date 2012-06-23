@@ -1,0 +1,10 @@
+{application, hello_erlang,
+ [
+  {description, "Hello Erlang"},
+  {vsn, "1"},
+  {registered, []},
+  {modules, []},
+  {applications, [kernel,stdlib]},
+  {mod, { hello_erlang_app, []}},
+  {env, []}
+ ]}.

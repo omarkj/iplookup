@@ -1,0 +1,11 @@
+%%% -*- mode: erlang -*-
+{application, iplookup,
+ [
+  {description, "IP lookup service"},
+  {vsn, "1"},
+  {registered, []},
+  {modules, []},
+  {applications, [kernel,stdlib,cowboy,mnesia,inets]},
+  {mod, { iplookup_app, []}},
+  {env, []}
+ ]}.
